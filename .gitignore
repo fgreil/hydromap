@@ -1,0 +1,31 @@
+# Downloaded geodata (large binary files, fetched by 01_Download.sh)
+europe_dem.nc
+ccm_data/
+
+# GMT intermediate files
+output/
+gmt.conf
+gmt.history
+
+# Temporary GMT session directories
+/tmp/f418-eu_*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if any helper scripts are added later)
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs
+*.log
